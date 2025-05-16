@@ -1,4 +1,18 @@
+name: consulta_cep_flutter
+description: Um app Flutter simples para consultar CEPs.
+publish_to: 'none' # se não for publicar no pub.dev
+
+environment:
+  sdk: '^3.7.0'
+
 dependencies:
   flutter:
     sdk: flutter
   http: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
